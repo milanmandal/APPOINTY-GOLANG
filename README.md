@@ -1,10 +1,10 @@
 # APPOINTY-GOLANG
 
-### TASK uploaded in master branch
+## TASK uploaded in master branch
 
-Use POSTMAN to to run the APIs
+### Use POSTMAN to to run the APIs
 
-To run the project:-
+### To run the project:-
 
 run the following command in the terminal of the root directory
 
