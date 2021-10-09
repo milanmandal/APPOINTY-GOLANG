@@ -15,7 +15,7 @@ The server runs on:-
 http://localhost:8000
 
 
-###To post user POST method on Postman
+### To post user POST method on Postman
 
 http://localhost:8000/users
 
@@ -31,14 +31,14 @@ http://localhost:8000/users
   
 }
 
-###To get user data GET method on Postman
+### To get user data GET method on Postman
 
 http://localhost:8000/users/{id}
 
 replace {id} with the user id from mongodb
 
 
-###To post userposts POST method on Postman
+### To post userposts POST method on Postman
 
 http://localhost:8000/posts
 
@@ -54,14 +54,14 @@ http://localhost:8000/posts
 }
 
 
-###To get post GET method on Postman
+### To get post GET method on Postman
 
 http://localhost:8000/posts/{id}
 
 replace the {id} with the post id from mongodb
 
 
-###To get all posts of a user GET method on Postman
+### To get all posts of a user GET method on Postman
 
 http://localhost:8000/posts/users/{id}
 
