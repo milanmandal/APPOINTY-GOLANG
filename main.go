@@ -30,9 +30,9 @@ type Person struct {
 type Post struct {
 	ID        	primitive.ObjectID `json:"_id,omitempty" bson:"_id,omitempty"`
 	Id			string			   `json:"id,omitempty" bson:"id,omitempty"`
-	Caption		string             `json:"name,omitempty" bson:"name,omitempty"`
-	ImageURL	string			   `json:"email,omitempty" bson:"email,omitempty"`
-	Timestamp  	string			   `json:"password  " bson:"password,omitempty"`
+	Caption		string             `json:"caption,omitempty" bson:"caption,omitempty"`
+	ImageURL	string			   `json:"url,omitempty" bson:"url,omitempty"`
+	Timestamp  	string			   `json:"time,omitempty" bson:"time,omitempty"`
 }
 
 
